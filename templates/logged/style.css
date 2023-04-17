@@ -1,0 +1,170 @@
+/* global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #555;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* specific styles for About Us page */
+main p:last-of-type {
+  margin-bottom: 0;
+}
+
+.login-form, .signup-form {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login-form h2, .signup-form h2 {
+  margin-top: 0;
+}
+
+.login-form label, .signup-form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.login-form input[type="text"], .signup-form input[type="text"], .login-form input[type="password"], .signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="submit"], .signup-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover, .signup-form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.login-form p, .signup-form p {
+  margin-top: 20px;
+}
+
+.login-form p a, .signup-form p a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: navy;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: black;
+
+}
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 4rem;
+}
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <title>Login</title>
+</head>
+<body>
+    <div align="center">
+        <H2> <a href="student-login.html">Student</a>   |   <a href="staff-login.html">Staff</a> </H2>
+    </div>
+    <div class="login-form">
+      <h2>Student Login</h2>
+      <form action="student/home.html" method="post" onsubmit="return validateLoginForm()">
+        <label for="username">ID Number:</label>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <span id="login-error-message"></span>
+
+        <input type="submit" value="Login">
+
+
+        <!--<div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>-->
+
+      </form>
+      <p>Not a member yet? <a href="/corinasia/templates/register.html">Register</a> now.</p>
+
+
+      <p> Go back <a href="/corinasia/templates/index.html">Home</a></p>
+    </div>
+
+</body>
+</html>
