@@ -14,3 +14,4 @@ def create_app():
         db.create_all()
 
     return app
+#hey collins sorry for disturbing. i miss you 
